@@ -13,6 +13,8 @@
     {"name":"inst_4F74EE90","path":"rooms/rm_lvl1/rm_lvl1.yy",},
     {"name":"inst_7058723C","path":"rooms/rm_lvl1/rm_lvl1.yy",},
     {"name":"inst_3200C1E3","path":"rooms/rm_lvl1/rm_lvl1.yy",},
+    {"name":"inst_7BD3DD43","path":"rooms/rm_lvl1/rm_lvl1.yy",},
+    {"name":"inst_74C6FDE7","path":"rooms/rm_lvl1/rm_lvl1.yy",},
     {"name":"inst_20EE9CDC","path":"rooms/rm_lvl1/rm_lvl1.yy",},
     {"name":"inst_39C520A5","path":"rooms/rm_lvl1/rm_lvl1.yy",},
     {"name":"inst_6B392E16","path":"rooms/rm_lvl1/rm_lvl1.yy",},
