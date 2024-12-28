@@ -54,6 +54,7 @@
     {"id":{"name":"Obj_red","path":"objects/Obj_red/Obj_red.yy",},},
     {"id":{"name":"obj_terra","path":"objects/obj_terra/obj_terra.yy",},},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
+    {"id":{"name":"rm_lvl01","path":"rooms/rm_lvl01/rm_lvl01.yy",},},
     {"id":{"name":"rm_lvl1","path":"rooms/rm_lvl1/rm_lvl1.yy",},},
     {"id":{"name":"rm_lvl2","path":"rooms/rm_lvl2/rm_lvl2.yy",},},
     {"id":{"name":"rm_lvl3","path":"rooms/rm_lvl3/rm_lvl3.yy",},},
@@ -94,6 +95,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_lvl01","path":"rooms/rm_lvl01/rm_lvl01.yy",},},
     {"roomId":{"name":"rm_lvl4","path":"rooms/rm_lvl4/rm_lvl4.yy",},},
     {"roomId":{"name":"rm_lvl3","path":"rooms/rm_lvl3/rm_lvl3.yy",},},
     {"roomId":{"name":"rm_lvl2","path":"rooms/rm_lvl2/rm_lvl2.yy",},},
