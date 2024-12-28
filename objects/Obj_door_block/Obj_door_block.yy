@@ -9,7 +9,10 @@
     "name":"Объекты",
     "path":"folders/Объекты.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_pl",
+    "path":"objects/Obj_pl/Obj_pl.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
