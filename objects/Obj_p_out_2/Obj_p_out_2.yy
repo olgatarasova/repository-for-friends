@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_blue",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_p_out_2",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_blue",
+  "name":"Obj_p_out_2",
   "overriddenProperties":[],
   "parent":{
     "name":"Объекты",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_m_idle",
-    "path":"sprites/Spr_m_idle/Spr_m_idle.yy",
+    "name":"Spr_portal_out_red",
+    "path":"sprites/Spr_portal_out_red/Spr_portal_out_red.yy",
   },
   "spriteMaskId":null,
   "visible":true,
