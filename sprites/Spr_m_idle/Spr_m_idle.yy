@@ -28,7 +28,7 @@
   ],
   "name":"Spr_m_idle",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Спрайты",
     "path":"folders/Спрайты.yy",
@@ -96,7 +96,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":24,
-    "yorigin":24,
+    "yorigin":40,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
