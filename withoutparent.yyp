@@ -38,6 +38,8 @@
     {"id":{"name":"Obj_blue","path":"objects/Obj_blue/Obj_blue.yy",},},
     {"id":{"name":"Obj_door_1","path":"objects/Obj_door_1/Obj_door_1.yy",},},
     {"id":{"name":"Obj_door_block","path":"objects/Obj_door_block/Obj_door_block.yy",},},
+    {"id":{"name":"obj_door_blue_test","path":"objects/obj_door_blue_test/obj_door_blue_test.yy",},},
+    {"id":{"name":"obj_door_red_test","path":"objects/obj_door_red_test/obj_door_red_test.yy",},},
     {"id":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},},
     {"id":{"name":"obj_ice","path":"objects/obj_ice/obj_ice.yy",},},
     {"id":{"name":"Obj_lever","path":"objects/Obj_lever/Obj_lever.yy",},},
@@ -109,6 +111,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_lvl6","path":"rooms/rm_lvl6/rm_lvl6.yy",},},
     {"roomId":{"name":"rm_lvl1","path":"rooms/rm_lvl1/rm_lvl1.yy",},},
     {"roomId":{"name":"rm_lvl3","path":"rooms/rm_lvl3/rm_lvl3.yy",},},
     {"roomId":{"name":"rm_lvl5","path":"rooms/rm_lvl5/rm_lvl5.yy",},},
@@ -117,7 +120,6 @@
     {"roomId":{"name":"rm_lvl2","path":"rooms/rm_lvl2/rm_lvl2.yy",},},
     {"roomId":{"name":"lvls","path":"rooms/lvls/lvls.yy",},},
     {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
-    {"roomId":{"name":"rm_lvl6","path":"rooms/rm_lvl6/rm_lvl6.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
