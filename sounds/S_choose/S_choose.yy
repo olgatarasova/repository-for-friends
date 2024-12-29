@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"S_choose",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.372,
+  "name":"S_choose",
+  "parent":{
+    "name":"Звуки",
+    "path":"folders/Звуки.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"S_choose.wav",
+  "type":0,
+  "volume":1.0,
+}
