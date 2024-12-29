@@ -28,7 +28,7 @@ if place_meeting(x,y+3,Obj_pl) or place_meeting(-x+global.dx,y+global.dy+3,Obj_p
 	if keyboard_check(vk_up)
 	{
 
-		ysp=-4	
+		ysp=-4
 	}
 }
 	
