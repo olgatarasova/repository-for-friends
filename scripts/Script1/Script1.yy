@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Script1",
   "parent":{
-    "name":"withoutparent",
-    "path":"withoutparent.yyp",
+    "name":"animation charachters",
+    "path":"animation charachters.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
