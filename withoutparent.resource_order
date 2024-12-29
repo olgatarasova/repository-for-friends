@@ -1,0 +1,10 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"Obj_p_blue","order":2,"path":"objects/Obj_p_blue/Obj_p_blue.yy",},
+    {"name":"Obj_p_red","order":1,"path":"objects/Obj_p_red/Obj_p_red.yy",},
+    {"name":"Spr_backg_2","order":1,"path":"sprites/Spr_backg_2/Spr_backg_2.yy",},
+    {"name":"Spr_p_blue","order":2,"path":"sprites/Spr_p_blue/Spr_p_blue.yy",},
+    {"name":"Spr_p_red","order":3,"path":"sprites/Spr_p_red/Spr_p_red.yy",},
+  ],
+}

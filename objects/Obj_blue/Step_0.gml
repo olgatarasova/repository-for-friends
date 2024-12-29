@@ -40,3 +40,7 @@ if (place_meeting(x,y-3,Obj_pl) or place_meeting(-x+global.dx,y+global.dy-3,Obj_
 move_and_collide(xsp,ysp,Obj_pl)
 
 
+if (y=1000)
+{
+	room_restart()
+}
