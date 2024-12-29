@@ -2,5 +2,6 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"rm_lvl7","order":1,"path":"rooms/rm_lvl7/rm_lvl7.yy",},
+    {"name":"rm_lvl8","order":2,"path":"rooms/rm_lvl8/rm_lvl8.yy",},
   ],
 }
