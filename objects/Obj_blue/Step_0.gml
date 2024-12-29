@@ -44,3 +44,15 @@ if (y=1000)
 {
 	room_restart()
 }
+
+
+
+if (sprite_index=Spr_m_run and !audio_is_playing(S_walk_1) and ysp=0)
+	{
+		 audio_play_sound(S_walk_1, 1, true)
+	}
+if (sprite_index=Spr_m_idle or ysp!=0)
+	{
+		audio_stop_sound(S_walk_1)
+	
+	}

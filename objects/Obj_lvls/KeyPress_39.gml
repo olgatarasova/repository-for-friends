@@ -1,5 +1,5 @@
 lvl += 1
-
+audio_play_sound(S_choose,1,false)
 if (lvl == 1) {
     Obj_lvl_1.image_index = 1
 }

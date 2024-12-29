@@ -1,10 +1,20 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"Obj_name","order":5,"path":"objects/Obj_name/Obj_name.yy",},
     {"name":"Obj_p_blue","order":2,"path":"objects/Obj_p_blue/Obj_p_blue.yy",},
     {"name":"Obj_p_red","order":1,"path":"objects/Obj_p_red/Obj_p_red.yy",},
+    {"name":"Obj_pl_long","order":3,"path":"objects/Obj_pl_long/Obj_pl_long.yy",},
+    {"name":"Obj_pl_slim","order":4,"path":"objects/Obj_pl_slim/Obj_pl_slim.yy",},
+    {"name":"S_choose","order":4,"path":"sounds/S_choose/S_choose.yy",},
+    {"name":"S_click_1","order":3,"path":"sounds/S_click_1/S_click_1.yy",},
+    {"name":"S_click_2","order":5,"path":"sounds/S_click_2/S_click_2.yy",},
+    {"name":"S_p_no","order":2,"path":"sounds/S_p_no/S_p_no.yy",},
+    {"name":"S_p_yes","order":1,"path":"sounds/S_p_yes/S_p_yes.yy",},
     {"name":"Spr_backg_2","order":1,"path":"sprites/Spr_backg_2/Spr_backg_2.yy",},
+    {"name":"Spr_long_platform","order":4,"path":"sprites/Spr_long_platform/Spr_long_platform.yy",},
     {"name":"Spr_p_blue","order":2,"path":"sprites/Spr_p_blue/Spr_p_blue.yy",},
     {"name":"Spr_p_red","order":3,"path":"sprites/Spr_p_red/Spr_p_red.yy",},
+    {"name":"Spr_pl_slim","order":5,"path":"sprites/Spr_pl_slim/Spr_pl_slim.yy",},
   ],
 }

@@ -12,3 +12,5 @@ else
 {
 	sprite_index=Spr_w_run
 }
+
+
