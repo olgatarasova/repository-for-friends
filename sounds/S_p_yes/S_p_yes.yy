@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.558146,
+  "duration":1.374333,
   "name":"S_p_yes",
   "parent":{
     "name":"Звуки",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.372,
+  "duration":0.689333,
   "name":"S_choose",
   "parent":{
     "name":"Звуки",

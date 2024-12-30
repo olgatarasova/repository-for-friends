@@ -26,7 +26,7 @@ if place_meeting(x,y+3,Obj_pl) or place_meeting(-x+global.dx,y+global.dy+3,Obj_p
 	{
 
 		ysp=-4
-		audio_play_sound(S_click_1,1,false)
+		audio_play_sound(S_jump,1,false)
 		
 	}
 }
@@ -56,7 +56,7 @@ if (sprite_index=Spr_m_idle or !(place_meeting(x,y+3,Obj_pl) or place_meeting(-x
 if ysp>0 and (place_meeting(x,y+6,Obj_pl) or place_meeting(-x+global.dx,y+global.dy+6,Obj_pl) or place_meeting(x,y+6,Obj_pl_blue) or place_meeting(-x+global.dx,y+global.dy+6,Obj_pl_red))
 
 {
-	audio_play_sound(S_choose,1,false)
+	audio_play_sound(S_lended,1,false)
 }
 
 if place_meeting(x,y+3,Obj_pl) or place_meeting(-x+global.dx,y+global.dy+3,Obj_pl) or place_meeting(x,y+3,Obj_pl_blue) or place_meeting(-x+global.dx,y+global.dy+3,Obj_pl_red)
