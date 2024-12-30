@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Script1",
   "parent":{
-    "name":"MAIN",
-    "path":"MAIN.yyp",
+    "name":"withoutparent",
+    "path":"withoutparent.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

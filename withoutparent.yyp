@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"MAIN",
+  "%Name":"withoutparent",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -33,7 +33,7 @@
   "MetaData":{
     "IDEVersion":"2024.11.0.179",
   },
-  "name":"MAIN",
+  "name":"withoutparent",
   "resources":[
     {"id":{"name":"Obj_blue","path":"objects/Obj_blue/Obj_blue.yy",},},
     {"id":{"name":"Obj_door_1","path":"objects/Obj_door_1/Obj_door_1.yy",},},
