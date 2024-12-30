@@ -4,15 +4,15 @@
   "bboxMode":0,
   "bbox_bottom":47,
   "bbox_left":4,
-  "bbox_right":44,
-  "bbox_top":41,
+  "bbox_right":43,
+  "bbox_top":44,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2de9fa2a-b2ee-46e5-b400-48f43e329bcb","name":"2de9fa2a-b2ee-46e5-b400-48f43e329bcb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d322ad58-98a4-4dec-861a-cc7fc8f20ce6","name":"d322ad58-98a4-4dec-861a-cc7fc8f20ce6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2de9fa2a-b2ee-46e5-b400-48f43e329bcb","path":"sprites/Spr_portal_out/Spr_portal_out.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"897dac47-b165-4fa9-aff4-d8959f60baa1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d322ad58-98a4-4dec-861a-cc7fc8f20ce6","path":"sprites/Spr_portal_out/Spr_portal_out.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"990a68bf-8348-4f9a-9408-9aeaaf1304aa","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -6,5 +6,5 @@ if (image_index=0)
 
 if (image_index=1)
 {
-	room_goto(lvls)
+	room_goto(rm_lvls)
 }

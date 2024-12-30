@@ -2,17 +2,20 @@
   "$GMSprite":"",
   "%Name":"Spr_portal_in_blue",
   "bboxMode":0,
-  "bbox_bottom":47,
-  "bbox_left":4,
-  "bbox_right":44,
-  "bbox_top":7,
+  "bbox_bottom":45,
+  "bbox_left":3,
+  "bbox_right":45,
+  "bbox_top":3,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2de9fa2a-b2ee-46e5-b400-48f43e329bcb","name":"2de9fa2a-b2ee-46e5-b400-48f43e329bcb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"30ee7f01-c268-4c9f-9783-d948b2910cb3","name":"30ee7f01-c268-4c9f-9783-d948b2910cb3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"72b183cf-6cc3-446d-9119-4580ac502b91","name":"72b183cf-6cc3-446d-9119-4580ac502b91","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"fd10c9e5-8645-4ea4-a220-c6cde005f1a7","name":"fd10c9e5-8645-4ea4-a220-c6cde005f1a7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e51dbce8-b3ca-4b73-bb14-a72479269b7b","name":"e51dbce8-b3ca-4b73-bb14-a72479269b7b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -49,7 +52,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":4.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -59,7 +62,7 @@
     },
     "name":"Spr_portal_in_blue",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":3.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -69,8 +72,17 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2de9fa2a-b2ee-46e5-b400-48f43e329bcb","path":"sprites/Spr_portal_in_blue/Spr_portal_in_blue.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"897dac47-b165-4fa9-aff4-d8959f60baa1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"30ee7f01-c268-4c9f-9783-d948b2910cb3","path":"sprites/Spr_portal_in_blue/Spr_portal_in_blue.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d7f8198f-c609-4ccd-80c2-1a6198d8acf1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"72b183cf-6cc3-446d-9119-4580ac502b91","path":"sprites/Spr_portal_in_blue/Spr_portal_in_blue.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bff1a1cb-bf52-4f80-a6c3-782441b5c80e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fd10c9e5-8645-4ea4-a220-c6cde005f1a7","path":"sprites/Spr_portal_in_blue/Spr_portal_in_blue.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a4b40762-f1b1-4d15-8d60-8969092d5380","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e51dbce8-b3ca-4b73-bb14-a72479269b7b","path":"sprites/Spr_portal_in_blue/Spr_portal_in_blue.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3fa964ac-4226-406e-8fbb-8ee0b7ced9c2","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

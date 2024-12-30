@@ -13,4 +13,8 @@ else
 	sprite_index=Spr_w_run
 }
 
+if Obj_blue.sprite_index=Spr_m_jump
+{
+	sprite_index=Spr_w_jump
+}
 

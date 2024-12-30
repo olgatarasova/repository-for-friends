@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_long_platform",
-    "path":"sprites/Spr_long_platform/Spr_long_platform.yy",
+    "name":"Spr_platforms_long",
+    "path":"sprites/Spr_platforms_long/Spr_platforms_long.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -26,8 +26,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"Tx","filters":[],"listItems":[],"multiselect":false,"name":"Tx","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"500","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"Ty","filters":[],"listItems":[],"multiselect":false,"name":"Ty","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"342","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"Tx","filters":[],"listItems":[],"multiselect":false,"name":"Tx","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"736","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"Ty","filters":[],"listItems":[],"multiselect":false,"name":"Ty","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"592","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

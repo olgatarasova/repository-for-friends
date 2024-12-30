@@ -1,24 +1,21 @@
 xsp=0
-
 if ysp<4
 {ysp+=0.1}
 	
 
 if keyboard_check(vk_left)
-{ if !place_meeting(x-3,y,Obj_pl) and !place_meeting(x-3,y,Obj_pl_blue) and !place_meeting((-x+global.dx)+3,y+global.dy,Obj_pl) and !place_meeting((-x+global.dx)+3,y+global.dy,Obj_pl_red)
+{ if !place_meeting(x-3,y,Obj_pl) and !place_meeting(x-3,y,Obj_pl_blue) and !place_meeting((-x+global.dx)+3,y+global.dy,Obj_pl) and !place_meeting((-x+global.dx)+3,y+global.dy,Obj_pl_red) and !(Obj_red.x+15>room_width) and !(x-15<0)
 {
 	xsp=-1
 	image_xscale=-1
-	sprite_index=Spr_m_run
 	Obj_red.run=1
 }}
 
 if keyboard_check(vk_right)
-{ if !place_meeting(x+3,y,Obj_pl) and !place_meeting(x+3,y,Obj_pl_blue) and !place_meeting((-x+global.dx)-3,y+global.dy,Obj_pl) and !place_meeting((-x+global.dx)-3,y+global.dy,Obj_pl_red)
+{ if !place_meeting(x+3,y,Obj_pl) and !place_meeting(x+3,y,Obj_pl_blue) and !place_meeting((-x+global.dx)-3,y+global.dy,Obj_pl) and !place_meeting((-x+global.dx)-3,y+global.dy,Obj_pl_red) and !(x+15>room_width) and !(Obj_red.x-15<0)
 {
 	xsp=1
 	image_xscale=1
-	sprite_index=Spr_m_run
 	Obj_red.run=1
 }}
 
@@ -29,6 +26,8 @@ if place_meeting(x,y+3,Obj_pl) or place_meeting(-x+global.dx,y+global.dy+3,Obj_p
 	{
 
 		ysp=-4
+		audio_play_sound(S_click_1,1,false)
+		
 	}
 }
 	
@@ -46,13 +45,46 @@ if (y=1000)
 }
 
 
-
-if (sprite_index=Spr_m_run and !audio_is_playing(S_walk_1) and ysp=0)
+if (sprite_index=Spr_m_run and !audio_is_playing(S_walk_1) and (place_meeting(x,y+3,Obj_pl) or place_meeting(-x+global.dx,y+global.dy+3,Obj_pl) or place_meeting(x,y+3,Obj_pl_blue) or place_meeting(-x+global.dx,y+global.dy+3,Obj_pl_red)))
 	{
 		 audio_play_sound(S_walk_1, 1, true)
 	}
-if (sprite_index=Spr_m_idle or ysp!=0)
+if (sprite_index=Spr_m_idle or !(place_meeting(x,y+3,Obj_pl) or place_meeting(-x+global.dx,y+global.dy+3,Obj_pl) or place_meeting(x,y+3,Obj_pl_blue) or place_meeting(-x+global.dx,y+global.dy+3,Obj_pl_red)))
 	{
 		audio_stop_sound(S_walk_1)
-	
 	}
+if ysp>0 and (place_meeting(x,y+6,Obj_pl) or place_meeting(-x+global.dx,y+global.dy+6,Obj_pl) or place_meeting(x,y+6,Obj_pl_blue) or place_meeting(-x+global.dx,y+global.dy+6,Obj_pl_red))
+
+{
+	audio_play_sound(S_choose,1,false)
+}
+
+if place_meeting(x,y+3,Obj_pl) or place_meeting(-x+global.dx,y+global.dy+3,Obj_pl) or place_meeting(x,y+3,Obj_pl_blue) or place_meeting(-x+global.dx,y+global.dy+3,Obj_pl_red)
+{
+		if keyboard_check(vk_left)
+		{ if !place_meeting(x-3,y,Obj_pl) and !place_meeting(x-3,y,Obj_pl_blue) and !place_meeting((-x+global.dx)+3,y+global.dy,Obj_pl) and !place_meeting((-x+global.dx)+3,y+global.dy,Obj_pl_red)
+		{
+			
+			sprite_index=Spr_m_run
+		}}
+		else
+		{if keyboard_check(vk_right)
+		{ if !place_meeting(x+3,y,Obj_pl) and !place_meeting(x+3,y,Obj_pl_blue) and !place_meeting((-x+global.dx)-3,y+global.dy,Obj_pl) and !place_meeting((-x+global.dx)-3,y+global.dy,Obj_pl_red)
+		{
+			
+			sprite_index=Spr_m_run
+		}}
+		else
+		{
+			sprite_index=Spr_m_idle
+		}}
+}
+else 
+{
+	
+	sprite_index=Spr_m_jump
+}
+	
+
+	
+	

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.0,
+  "duration":0.369417,
   "name":"S_walk_1",
   "parent":{
     "name":"Звуки",
